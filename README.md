@@ -6,7 +6,7 @@
 - In your terminal execute: `./db-backup.sh` or `ssh db-backup.sh`
 
 # Automatically running the script
-- Setting in your crontab -e `/bin/sh ${PATH}/Bash-Script-MySQL-backup/db-backup.sh >> /tmp/db-backup-logs 2>&1`
+- Crontab -e `/bin/sh ${DIRECTORY_PATH}/Bash-Script-MySQL-backup/db-backup.sh >> /tmp/db-backup-logs 2>&1`
 
 # If file doesn't execute
 - Give it permission `chmod +x db-backup.sh`
