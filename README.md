@@ -1,6 +1,7 @@
 # Bash-Script-MySQL-backup
 - Simple bash script for backing up your database.
 - To automatically back up your database periodically, attach the script to crontab.
+- The script also sends your database back ups to a remote repository that you will set.
 
 # Running script manually
 - In your terminal execute: `./db-backup.sh` or `ssh db-backup.sh`
