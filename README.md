@@ -9,7 +9,7 @@
 ### Automatically running the script
 - Crontab -e `/bin/sh ${DIRECTORY_PATH}/Bash-Script-MySQL-backup/db-backup.sh >> /tmp/db-backup-logs 2>&1`
 
-### If file doesn't execute
+### If the file doesn't execute
 - Give it permission `chmod +x db-backup.sh`
 
 ### Tip
